@@ -1,4 +1,4 @@
-import { ExternalLink, Github } from "lucide-react";
+import { ExternalLink, Github, ArrowRight } from "lucide-react";
 
 const projects = [
 	{
@@ -47,7 +47,6 @@ export const ProjectsSection = () => {
 										</span>
 									))}
 								</div>
-							</div>
 
 							<h3 className="text-xl font-semibold mb-2">{project.title}</h3>
 							<p className="text-muted-foreground text-xs mb-4">
@@ -71,10 +70,22 @@ export const ProjectsSection = () => {
 									</a>
 
 								</div>
+								</div>
 							</div>
 						</div>
 					))}
 				</div>
+
+					<div className="text-center mt-12">
+						<a 
+							className="cosmic-button w-fit flex items-center mx-auto gap-2" 
+							href="https://github.com/nixxiva"
+							target="_blank"
+						> 
+							Check my Github <ArrowRight size={16}/>
+						</a>
+
+					</div>
 			</div>
 		</section>
 )};
