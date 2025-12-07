@@ -1,7 +1,26 @@
 import { Mail, Phone, MapPin, Linkedin, Facebook, Instagram, Send } from "lucide-react";
 import { cn } from "@/lib/utils";
+// import { useToast } from "@/hooks/use-toast";
+// import { Description } from "@radix-ui/react-toast";
 
 export const ContactSection = () => {
+	// const {toast} = useToast();
+	// const [isSubmitting, setIsSubmitting] = useState(false);
+
+	const handleSubmit = (e) => {
+	// 	e.preventDefault();
+
+	// 	setIsSubmitting(true);
+
+		setTimeout(() => {
+	// 		toast({
+	// 			title: "Message sent!",
+	// 			Description: "Thank you for your message, I'll get back to you soonest."
+	// 		})
+		}, 1500);
+
+	// 	setIsSubmitting(false);
+	};
   return (
 		<section 
       id="contact"
@@ -78,7 +97,10 @@ export const ContactSection = () => {
 								</div>
 							</div>
 					</div>
-					<div className="bg-card p-8 rounded-lg shadow-xs">
+					<div 
+						className="bg-card p-8 rounded-lg shadow-xs" 
+						// onSubmit={handleSubmit}
+					>
 						<h3 className="text-2xl font-semibold mb-6"> Send a Message</h3>
 
 						<form className="space-y-6">
@@ -121,7 +143,7 @@ export const ContactSection = () => {
 									htmlFor="message" 
 									className="block text-sm font-medium mb-2"
 								>
-									Your Name
+									Your Message
 								</label>
 								<textarea 
 									id="message" 
