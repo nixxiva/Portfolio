@@ -13,11 +13,20 @@ const projects = [
 	{
 		id: 2,
 		title: "Real Estate Landing Page",
-		description: "A modern real estate landing page focusing on clean UI structure and visual design, built to showcase property sections with a polished and professional layout",
+		description: "A modern real estate landing page focusing on clean UI structure and visual design, built to showcase property sections with a polished and professional layout.",
 		image: "/projects/project2.jpg",
 		tags: ["HTML", "CSS", "Javascript"],
 		demoUrl: "https://nixxiva.github.io/product-landing-page/landingp.html",
 		githubUrl: "https://github.com/nixxiva/product-landing-page"
+	},
+	{
+		id: 3,
+		title: "Tic-Tac-Toe",
+		description: "An interactive web-based Tic Tac Toe game. Focuses on smooth user experience, minimal design, and bug-free game logic.",
+		image: "/projects/project3.jpg",
+		tags: ["HTML", "CSS", "Javascript"],
+		demoUrl: "https://nixxiva.github.io/Tic-Tac-Toe/",
+		githubUrl: "https://github.com/nixxiva/Tic-Tac-Toe"
 	}
 ]
 
