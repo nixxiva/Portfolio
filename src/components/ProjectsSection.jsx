@@ -12,18 +12,27 @@ const projects = [
 	},
 	{
 		id: 2,
+		title: "Bank+Budget App",
+		description: "A banking app featuring customer management, balance tracking, and transaction history. Focuses on clean UI, component-based architecture, and interactive data display.",
+		image: "/projects/project2.jpg",
+		tags: ["React", "Javascript", "React", "Tailwind"],
+		demoUrl: "https://bank-app-beta-gilt.vercel.app/dashboard",
+		githubUrl: "https://github.com/nixxiva/bank_app"
+	},
+	{
+		id: 3,
 		title: "Real Estate Landing Page",
 		description: "A modern real estate landing page focusing on clean UI structure and visual design, built to showcase property sections with a polished and professional layout.",
-		image: "/projects/project2.jpg",
+		image: "/projects/project3.jpg",
 		tags: ["HTML", "CSS", "Javascript"],
 		demoUrl: "https://nixxiva.github.io/product-landing-page/landingp.html",
 		githubUrl: "https://github.com/nixxiva/product-landing-page"
 	},
 	{
-		id: 3,
+		id: 4,
 		title: "Tic-Tac-Toe",
 		description: "An interactive web-based Tic Tac Toe game. Focuses on smooth user experience, minimal design, and bug-free game logic.",
-		image: "/projects/project3.jpg",
+		image: "/projects/project4.jpg",
 		tags: ["HTML", "CSS", "Javascript"],
 		demoUrl: "https://nixxiva.github.io/Tic-Tac-Toe/",
 		githubUrl: "https://github.com/nixxiva/Tic-Tac-Toe"
@@ -58,7 +67,7 @@ export const ProjectsSection = () => {
 							</div>
 
 							<div className="p-6">
-								<div className="flex flex-wrap justify-center gap-2 mb-4">
+								<div className="flex flex-nowrap justify-center gap-2 mb-4">
 									{project.tags.map((tag) => (
 										<span 
 											key={tag}
