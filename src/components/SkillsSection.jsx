@@ -2,24 +2,30 @@ import { useState } from "react";
 import { cn } from "@/lib/utils";
 
 const skills = [
-	// FRONTEND
-  { name: "HTML/CSS", level: 80, category: "frontend"}, 
-  { name: "Javascript", level: 50, category: "frontend"}, 
-  { name: "React", level: 30, category: "frontend"}, 
-  { name: "Bootstrap", level: 20, category: "frontend"}, 
-  { name: "Tailwind CSS", level: 20, category: "frontend"}, 
+  // Frontend
+  { name: "HTML/CSS", level: 85, category: "frontend" },
+  { name: "JavaScript", level: 50, category: "frontend" },
+  { name: "Bootstrap", level: 40, category: "frontend" },
+  { name: "React.js", level: 40, category: "frontend" },
+  { name: "Tailwind CSS", level: 35, category: "frontend" },
 
-	// Backend
-  { name: "Ruby on Rails", level: 55, category: "backend"}, 
-  { name: "PostgreSQL", level: 40, category: "backend"}, 
-  { name: "Postman", level: 50, category: "backend"}, 
-  { name: "RestfulAPI", level: 60, category: "backend"}, 
+  // Backend
+  { name: "Java", level: 55, category: "backend" },
+  { name: "Spring Boot", level: 45, category: "backend" },
+  { name: "Spring Data JPA", level: 40, category: "backend" },
+  { name: "Hibernate", level: 35, category: "backend" },
+  { name: "REST APIs", level: 60, category: "backend" },
+  { name: "PostgreSQL", level: 55, category: "backend" },
 
-	// Tools
-  { name: "Git/Github", level: 65, category: "tools"}, 
-  { name: "VS Code", level: 70, category: "tools"}, 
-  { name: "Render", level: 40, category: "tools"}, 
-  { name: "Vercel", level: 40, category: "tools"}, 
+  // Tools
+  { name: "Git/GitHub", level: 70, category: "tools" },
+  { name: "IntelliJ IDEA", level: 75, category: "tools" },
+  { name: "VS Code", level: 75, category: "tools" },
+  { name: "Postman", level: 70, category: "tools" },
+  { name: "Render", level: 55, category: "tools" },
+  { name: "Neon PostgreSQL", level: 50, category: "tools" },
+  { name: "TablePlus", level: 55, category: "tools" },
+  { name: "AWS", level: 30, category: "tools" },
 ];
 
 const categories = ["all", "frontend", "backend", "tools"]; 
