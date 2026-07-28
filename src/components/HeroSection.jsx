@@ -21,7 +21,7 @@ export const HeroSection = () => {
 						</h1>
 
 						<p className="text-base md:text-sm text-muted-foreground max-1-1xl mx-auto opacity-0 animate-fade-in-delay-3">
-							I'm a Junior Full-Stack Developer who has just completed the Avion School bootcamp. I built projects using JavaScript and Ruby on Rails, focusing on efficient code and compelling user experiences. I'm actively seeking opportunities to contribute to high value product development.
+							I'm a Junior Java Full-Stack Developer and career shifter passionate about building scalable web applications. I develop full-stack applications using Java, Spring Boot, PostgreSQL, JavaScript, Ruby and REST APIs, with experience deploying projects to the cloud. I'm continuously learning and excited to contribute to real-world software development.
 						</p>
 
 						<div className="pt-4 opacity-0 animate-fade-in-delay-4">
