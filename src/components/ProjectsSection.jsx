@@ -3,12 +3,12 @@ import { ExternalLink, Github, ArrowRight } from "lucide-react";
 const projects = [
 	{
 		id: 1,
-		title: "AI Meal Planner",
-		description: "An API‑only Ruby on Rails backend paired with a React frontend that delivers AI‑powered, personalized meal planning.",
-		image: "/projects/project1.jpg",
-		tags: ["React", "Ruby on Rails", "PostgreSQL"],
-		demoUrl: "#",
-		githubUrl: "https://github.com/nixxiva/AI_Meal_Planning_App"
+		title: "Real Estate Web System",
+		description: "Full-stack real estate web application built with Java Spring Boot and PostgreSQL, featuring property listings, an inquiry system, REST APIs, and cloud deployment using Render and Neon.",
+		image: "/projects/project3.jpg",
+		tags: ["HTML", "CSS", "Javascript, Java, PostgreSQL"],
+		demoUrl: "https://nixxiva.github.io/real-estate-web-app/",
+		githubUrl: "https://github.com/nixxiva/real-estate-web-app"
 	},
 	{
 		id: 2,
@@ -21,12 +21,12 @@ const projects = [
 	},
 	{
 		id: 3,
-		title: "Real Estate Landing Page",
-		description: "A modern real estate landing page focusing on clean UI structure and visual design, built to showcase property sections with a polished and professional layout.",
-		image: "/projects/project3.jpg",
-		tags: ["HTML", "CSS", "Javascript"],
-		demoUrl: "https://nixxiva.github.io/product-landing-page/landingp.html",
-		githubUrl: "https://github.com/nixxiva/product-landing-page"
+		title: "AI Meal Planner",
+		description: "An API‑only Ruby on Rails backend paired with a React frontend that delivers AI‑powered, personalized meal planning.",
+		image: "/projects/project1.jpg",
+		tags: ["React", "Ruby on Rails", "PostgreSQL"],
+		demoUrl: "#",
+		githubUrl: "https://github.com/nixxiva/AI_Meal_Planning_App"
 	},
 	{
 		id: 4,
