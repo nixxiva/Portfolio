@@ -5,27 +5,28 @@ const skills = [
   // Frontend
   { name: "HTML/CSS", level: 85, category: "frontend" },
   { name: "JavaScript", level: 50, category: "frontend" },
-  { name: "Bootstrap", level: 40, category: "frontend" },
+  { name: "Bootstrap", level: 35, category: "frontend" },
   { name: "React.js", level: 40, category: "frontend" },
   { name: "Tailwind CSS", level: 35, category: "frontend" },
 
   // Backend
   { name: "Java", level: 55, category: "backend" },
-  { name: "Spring Boot", level: 45, category: "backend" },
-  { name: "Spring Data JPA", level: 40, category: "backend" },
+  { name: "Ruby", level: 40, category: "backend" },
+  { name: "Spring Boot", level: 40, category: "backend" },
+  { name: "Spring Data JPA", level: 35, category: "backend" },
   { name: "Hibernate", level: 35, category: "backend" },
   { name: "REST APIs", level: 60, category: "backend" },
   { name: "PostgreSQL", level: 55, category: "backend" },
 
   // Tools
   { name: "Git/GitHub", level: 70, category: "tools" },
-  { name: "IntelliJ IDEA", level: 75, category: "tools" },
+  { name: "IntelliJ IDEA", level: 65, category: "tools" },
   { name: "VS Code", level: 75, category: "tools" },
   { name: "Postman", level: 70, category: "tools" },
   { name: "Render", level: 55, category: "tools" },
-  { name: "Neon PostgreSQL", level: 50, category: "tools" },
+  { name: "Neon PostgreSQL", level: 40, category: "tools" },
   { name: "TablePlus", level: 55, category: "tools" },
-  { name: "AWS", level: 30, category: "tools" },
+  { name: "AWS", level: 35, category: "tools" },
 ];
 
 const categories = ["all", "frontend", "backend", "tools"]; 
