@@ -16,7 +16,7 @@ export const AboutSection = () => {
                     </h3>
 
                     <p className="text-muted-foreground">
-                        With a hands-on experience in JavaScript, React, HTML, CSS, and Ruby on Rails. I recently completed the Avion School bootcamp, where I built real full-stack projects from scratch. I enjoy creating clean, responsive interfaces and writing efficient, maintainable code, motivated by solving real problems and contributing to projects that deliver high value.
+                        With a hands-on experience in JavaScript, React, HTML, CSS, Java and Ruby on Rails. I completed the Full Stack Web Development bootcamp and TESDA Programming(JAVA) NCIII, where I built real full-stack projects from scratch. I enjoy creating clean, responsive interfaces and writing efficient, maintainable code, motivated by solving real problems and contributing to projects that deliver high value.
                     </p>
 
                     <p className="text-muted-foreground">
