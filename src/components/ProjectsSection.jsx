@@ -6,7 +6,7 @@ const projects = [
 		title: "Real Estate Web System",
 		description: "Full-stack real estate web application built with Java Spring Boot and PostgreSQL, featuring property listings, an inquiry system, REST APIs, and cloud deployment using Render and Neon.",
 		image: "/projects/project3.jpg",
-		tags: ["HTML", "CSS", "Javascript, Java, PostgreSQL"],
+		tags: ["HTML", "CSS", "Javascript", "Java", "PostgreSQL"],
 		demoUrl: "https://nixxiva.github.io/real-estate-web-app/",
 		githubUrl: "https://github.com/nixxiva/real-estate-web-app"
 	},
